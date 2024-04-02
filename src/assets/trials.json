@@ -1,0 +1,666 @@
+{
+    "support": "To connect with a Pediatric Clinical Trial Nurse Navigator at the Leukemia & Lymphoma Society who will personally assist your patient throughout the entire clinical-trial process, click this link to fill out a Clinical Trial Support Center referral form  . One of our pediatric oncology nurses will call your patient within 1 business day and provide you with a copy of the individualized trial search results. For general inquiries, simply email askPedAL@lls.org",
+    "trials": [
+        {   
+            "name": "APAL2020SC",
+            "title": "A Study to Test Bone Marrow and Blood in Children With Leukemia That Has Come Back After Treatment or Is Difficult to Treat",
+            "description": "This study aims to use clinical and biological characteristics of acute leukemias to screen for patient eligibility for available pediatric leukemia sub-trials. Testing bone marrow and blood from patients with leukemia that has come back after treatment or is difficult to treat may provide information about the patient's leukemia that is important when deciding how to best treat it, and may help doctors find better ways to diagnose and treat leukemia in children, adolescents, and young adults.",
+            "locations": [],
+            "link": "https://clinicaltrials.gov/ct2/show/NCT04726241",
+            "criteria": [
+                {
+                    "operator": "and",
+                    "conditions": [
+                        {
+                            "age": {
+                                "max": 21
+                            }
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "diagnosis": "Acute myeloid leukemia (AML)"
+                                        },
+                                        {
+                                            "operator": "or",
+                                            "conditions": [
+                                                {
+                                                    "operator": "and",
+                                                    "conditions": [
+                                                        {
+                                                            "ever_refractory": "Yes"
+                                                        },
+                                                        {
+                                                            "current_refractory": "Yes"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "operator": "and",
+                                                    "conditions": [
+                                                        {
+                                                            "ever_relapse": "Yes"
+                                                        },
+                                                        {
+                                                            "current_relapse": "Yes"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "diagnosis": "Treatment-related acute myeloid leukemia (tAML)"
+                                },
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "diagnosis": "Mixed-phenotype acute leukemia (MPAL)"
+                                        },
+                                        {
+                                            "operator": "or",
+                                            "conditions": [
+                                                {
+                                                    "operator": "and",
+                                                    "conditions": [
+                                                        {
+                                                            "ever_refractory": "Yes"
+                                                        },
+                                                        {
+                                                            "current_refractory": "Yes"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "operator": "and",
+                                                    "conditions": [
+                                                        {
+                                                            "ever_relapse": "Yes"
+                                                        },
+                                                        {
+                                                            "current_relapse": "Yes"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "diagnosis": "T-cell acute lymphoblastic leukemia (T-ALL)"
+                                        },
+                                        {
+                                            "ever_relapse": "Yes"
+                                        },
+                                        {
+                                            "current_relapse": "Yes"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "diagnosis": "B-cell acute lymphoblastic leukemia (B-ALL)"
+                                        },
+                                        {
+                                            "ever_relapse": "Yes"
+                                        },
+                                        {
+                                            "current_relapse": "Yes"
+                                        },
+                                        {
+                                            "operator": "or",
+                                            "conditions": [
+                                                {
+                                                    "count_relapse": {
+                                                        "min": 3
+                                                    }
+                                                },
+                                                {
+                                                    "operator": "and",
+                                                    "conditions": [
+                                                        {
+                                                            "count_relapse": {
+                                                                "min": 1
+                                                            }
+                                                        },
+                                                        {
+                                                            "expression_kmt2ar": "Yes"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2020-0484",
+            "title": "Liposomal Cytarabine, Daunorubicin, and Gemtuzumab Ozogamicin for the Treatment of Relapsed Refractory Pediatric Patients With Acute Myeloid Leukemia",
+            "description": "This phase I trial studies the best dose and side effects of liposomal cytarabine, daunorubicin, and gemtuzumab ozogamicin in treating pediatric patients with acute myeloid leukemia that has returned after treatment (relapsed) or does not respond to treatment (refractory). Chemotherapy drugs, such as liposomal cytarabine and daunorubicin, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Gemtuzumab ozogamicin is a monoclonal antibody, called gemtuzumab, linked to a toxic agent called ozogamicin. Gemtuzumab attaches to CD33 positive cancer cells in a targeted way and delivers ozogamicin to kill them. Giving liposomal cytarabine and daunorubicin and gemtuzumab ozogamicin may help to control the disease.",
+            "locations": [
+                "M D Anderson Cancer Center"
+            ],
+            "link": "https://clinicaltrials.gov/ct2/show/NCT04915612",
+            "criteria": [
+                {
+                    "operator": "and",
+                    "conditions": [
+                        {
+                            "age": {
+                                "max": 21
+                            }
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "diagnosis": "Acute myeloid leukemia (AML)"
+                                        },
+                                        {
+                                            "operator": "or",
+                                            "conditions": [
+                                                {
+                                                    "operator": "and",
+                                                    "conditions": [
+                                                        {
+                                                            "current_relapse": "Yes"
+                                                        },
+                                                        {
+                                                            "ever_relapse": "Yes"
+                                                        },
+                                                        {
+                                                            "count_relapse": {
+                                                                "min": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "operator": "and",
+                                                    "conditions": [
+                                                        {
+                                                            "current_refractory": "Yes"
+                                                        },
+                                                        {
+                                                            "ever_refractory": "Yes"
+                                                        },
+                                                        {
+                                                            "count_refractory": {
+                                                                "min": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "diagnosis": "Treatment-related acute myeloid leukemia (tAML)"
+                                        },
+                                        {
+                                            "ever_relapse": "No"
+                                        },
+                                        {
+                                            "current_relapse": "No"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "bm_recent": "Yes"
+                                        },
+                                        {
+                                            "bm_recent_blast_pct_meas": {
+                                                "min": 5
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "bm_recent": "No"
+                                        },
+                                        {
+                                            "periph_blood_blast_pct_meas": {
+                                                "min": 5
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "ecog": "ECOG 0 (Lansky/Karnofsky 90-100)"
+                                },
+                                {
+                                    "ecog": "ECOG 1 (Lansky/Karnofsky 70-80)"
+                                },
+                                {
+                                    "ecog": "ECOG 2 (Lansky/Karnofsky 50-60)"
+                                }
+                            ]
+                        },
+                        {
+                            "diag_iso_cns": "CNS 1"
+                        },
+                        {
+                            "diag_down_syndrome": "No"
+                        },
+                        {
+                            "diag_cong_bmf": "No"
+                        },
+                        {
+                            "diag_uncontr_cns": "No"
+                        },
+                        {
+                            "diag_hiv": "No"
+                        },
+                        {
+                            "diag_hep_b_c": "No"
+                        },
+                        {
+                            "diag_liver_cirr_serious": "No"
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "exp_cytotoxic_chemo_ever": "Yes"
+                                        },
+                                        {
+                                            "exp_cytotoxic_chemo": {
+                                                "min": 14
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "exp_cytotoxic_chemo_ever": "No"
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "exp_anthracycline_ever": "Yes"
+                                        },
+                                        {
+                                            "cumul_anthracycline": {
+                                                "max": 450
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "exp_anthracycline_ever": "No"
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "norm_cardiac": "No"
+                                        },
+                                        {
+                                            "operator": "or",
+                                            "conditions": [
+                                                {
+                                                    "norm_lv": "Yes"
+                                                },
+                                                {
+                                                    "operator": "and",
+                                                    "conditions": [
+                                                        {
+                                                            "norm_lv": "No"
+                                                        },
+                                                        {
+                                                            "meas_ef": {
+                                                                "min": 50
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "norm_cardiac": "Yes"
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "norm_renal": "No"
+                                        },
+                                        {
+                                            "meas_serum_creat": {
+                                                "max": 2
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "norm_renal": "Yes"
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "norm_liver": "No"
+                                        },
+                                        {
+                                            "operator": "and",
+                                            "conditions": [
+                                                {
+                                                    "meas_dbili_mgdl": {
+                                                        "max": 2
+                                                    }
+                                                },
+                                                {
+                                                    "operator": "or",
+                                                    "conditions": [
+                                                        {
+                                                            "meas_alt_ul": {
+                                                                "max": 3
+                                                            }
+                                                        },
+                                                        {
+                                                            "meas_ast_uln": {
+                                                                "max": 3
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "norm_liver": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "20-489",
+            "title": "A Study of Codrituzumab in Children and Young Adults With Solid Tumors and Have Not Responded to Treatment or Have Come Back After Treatment",
+            "description": "The purpose of this study to find out whether codrituzumab is a safe treatment that causes few or mild side effects in children and young adults who have solid tumors that express the protein GPC3. The researchers also want to study the way codrituzumab is absorbed, distributed, and cleared from the body.",
+            "locations": [
+                "Cincinnati Children's Hospital Medical Center",
+                "Memorial Sloan Kettering Cancer Center"
+            ],
+            "criteria": [
+                {
+                    "operator": "and",
+                    "conditions": [
+                        {
+                            "age": {
+                                "min": 1,
+                                "max": 21
+                            }
+                        },
+                        {
+                            "operator": "and",
+                            "conditions": [
+                                {
+                                    "operator": "or",
+                                    "conditions": [
+                                        {
+                                            "operator": "and",
+                                            "conditions": [
+                                                {
+                                                    "ever_relapse": "Yes"
+                                                },
+                                                {
+                                                    "current_relapse": "Yes"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "operator": "and",
+                                            "conditions": [
+                                                {
+                                                    "ever_refractory": "Yes"
+                                                },
+                                                {
+                                                    "current_refractory": "Yes"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "operator": "or",
+                                    "conditions": [
+                                        {
+                                            "diagnosis": "Embryonal Carcinoma"
+                                        },
+                                        {
+                                            "diagnosis": "Yolk Sac Tumor"
+                                        },
+                                        {
+                                            "diagnosis": "Choriocarcinoma"
+                                        },
+                                        {
+                                            "diagnosis": "Mature Carcinoma"
+                                        },
+                                        {
+                                            "diagnosis": "Immature Carcinoma"
+                                        },
+                                        {
+                                            "diagnosis": "Gonadoblastoma"
+                                        },
+                                        {
+                                            "diagnosis": "Somatic Malignancy"
+                                        },
+                                        {
+                                            "diagnosis": "Necrotic Tumor"
+                                        },
+                                        {
+                                            "diagnosis": "Teratoma, Not Otherwise Specified"
+                                        },
+                                        {
+                                            "diagnosis": "Mixed Germ Cell Tumor"
+                                        },
+                                        {
+                                            "diagnosis": "Malignant Teratoma"
+                                        },
+                                        {
+                                            "diagnosis": "Seminoma"
+                                        },
+                                        {
+                                            "diagnosis": "Dysgerminoma"
+                                        },
+                                        {
+                                            "diagnosis": "Germinoma"
+                                        },
+                                        {
+                                            "operator": "and",
+                                            "conditions": [
+                                                {
+                                                    "diagnosis": "Hepatocellular carcinoma"
+                                                },
+                                                {
+                                                    "operator": "or",
+                                                    "conditions": [
+                                                        {
+                                                            "bclc_stage": "Stage A"
+                                                        },
+                                                        {
+                                                            "bclc_stage": "Stage B"
+                                                        },
+                                                        {
+                                                            "bclc_stage": "Stage C"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "ctp_score": {
+                                                        "min": 6
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "ecog": "ECOG 0 (Lansky/Karnofsky 90-100)"
+                                },
+                                {
+                                    "ecog": "ECOG 1 (Lansky/Karnofsky 70-80)"
+                                },
+                                {
+                                    "ecog": "ECOG 2 (Lansky/Karnofsky 50-60)"
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "normal_liver": "Yes"
+                                },
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "normal_liver": "No"
+                                        },
+                                        {
+                                            "meas_dbili_mgdl": {
+                                                "min": 2
+                                            }
+                                        },
+                                        {
+                                            "meas_ast_uln": {
+                                                "min": 5
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "or",
+                            "conditions": [
+                                {
+                                    "normal_hematology": "Yes"
+                                },
+                                {
+                                    "operator": "and",
+                                    "conditions": [
+                                        {
+                                            "norm_hema": "No"
+                                        },
+                                        {
+                                            "meas_hemoglobin": {
+                                                "max": 7
+                                            }
+                                        },
+                                        {
+                                            "meas_platelet_microl": {
+                                                "min": 26
+                                            }
+                                        },
+                                        {
+                                            "meas_absolute_neutrophil": {
+                                                "min": 0.5
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "operator": "and",
+                            "conditions": [
+                                {
+                                    "diag_hiv": "No"
+                                },
+                                {
+                                    "active_infection": "No"
+                                },
+                                {
+                                    "prior_solid_organ_transpl": "No"
+                                },
+                                {
+                                    "meas_inr": {
+                                        "max": 1.7
+                                    }
+                                },
+                                {
+                                    "expression_gpc3": "Yes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
